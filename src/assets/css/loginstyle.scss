@@ -1,0 +1,67 @@
+#app {
+    margin-top: 0px;
+    overflow: hidden;
+  }
+  .bgCls {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    img {
+      display: block;
+      outline: none;
+      border: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .logoCls {
+    img {
+      position: absolute;
+      left: 46%;
+      top: 35px;
+    }
+    h3 {
+      position: absolute;
+      left: 47%;
+      top: 95px;
+      color: #fff;
+    }
+  }
+  .avatarCls {
+    position: absolute;
+    left: 57%;
+    top: 138px;
+    z-index: 2;
+    img {
+      height: 120px;
+      width: 120px;
+      border-radius: 100px;
+      box-shadow: 0 6px 6px rgba(247, 243, 243, 0.959), 0 0 6px rgba(245, 243, 243, 0.74);
+    }
+  }
+  .showLogin {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 170px;
+    .loginBox {
+      background-color: rgba(249, 248, 252, 0.685);
+      width: 450px;
+      height: 350px;
+      position: absolute;
+      left: 46%;
+      top: 30px;
+      border-radius: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+      .formCls {
+        position: absolute;
+        top: 30%;
+        width: 380px;
+        .el-button {
+          width: 280px;
+        }
+      }
+    }
+  }

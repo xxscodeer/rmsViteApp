@@ -1,0 +1,24 @@
+{
+  "name": "rms",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "element-plus": "^1.0.2-beta.32",
+    "js-base64": "^3.6.0",
+    "vue": "^3.0.4",
+    "vue-class-component": "^8.0.0-0",
+    "vue-router": "^4.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "^4.5.11",
+    "@vue/compiler-sfc": "^3.0.4",
+    "sass": "^1.32.7",
+    "typescript": "~3.9.3",
+    "vite": "^1.0.0-rc.13"
+  }
+}
